@@ -34,11 +34,20 @@ alpha=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','
 random.shuffle(alpha)
 print(*alpha)
 
-# Obtenir les codes ASCII de l'alphabet minuscule
 codes_ascii = [ord(letter) for letter in alpha]
-
-# Afficher les codes ASCII
 print(codes_ascii)
+
+codes_ascii.sort()
+
+print(codes_ascii)
+
+alpha= [chr(code) for code in codes_ascii]
+
+print(*alpha)
+
+
+
+
 
 
 
