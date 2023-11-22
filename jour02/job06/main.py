@@ -8,6 +8,6 @@ for num in range(2,1001):
 
 # ---version more pythonic askip---- 
 
-# for num in range(2,1001):
-#     if all(num%i!=0 for i in range(2,num)):
-#        print (num)
+for num in range(2,1001):
+    if all(num%i!=0 for i in range(2,num)):
+       print (num)
