@@ -1,10 +1,13 @@
-chaine = "abcdefghijklmnopqrstuvwxyz" *10
-
-longueur_chaine = len(chaine)
+# cd 
 
 
-for i in range(0, longueur_chaine):
-    if i % 2 == 0 :
-    pyramide = chaine [i]
-    
+chaine = "abcdefghijklmnopqrstuvwxyz" * 10
 
+pyramide = ""
+
+for i in range(0, len(chaine)):
+    pyramide += chaine[i]
+    if i % 2 == 0:
+        pyra = pyramide
+        print(pyra)
+    break
