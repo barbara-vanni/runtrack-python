@@ -27,6 +27,6 @@ def my_long_word(n, phrase):
     
     return long_word
 
-resultat = my_long_word(4, "Des frites à la cantine")
+resultat = my_long_word(4, "Do not repeat yourself")
 print(resultat)
 
